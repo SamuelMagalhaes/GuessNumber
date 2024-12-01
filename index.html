@@ -16,14 +16,18 @@
             <p>Adivinhe um número entre 0 e 10</p>
             <form action="">
                 <input type="text" name="" id="inputNumber">
-                <button onclick="handleClick(event)">Tentar</button>
+                <button class="verify">Tentar</button>
             </form>
         </div>
         <div class="screen2 hide">
             <h2></h2>
-            <button onclick="handleClick(event)">Jogar novamente</button>
+            <button class="reload">Jogar novamente</button>
         </div>
     </main>
+    <div class="warning hide">
+        <p class="warning-text"></p>
+        <p class="tries"></p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
